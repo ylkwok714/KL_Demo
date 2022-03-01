@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
@@ -9,16 +10,16 @@ public class DialogueManager : MonoBehaviour
 {
     //public TextMeshPro nameText;
     public TextMeshProUGUI dialogueText;
-    public TextMeshProUGUI emoticonText;
+    public RawImage emoticonImage;
 
     private Queue<string> sentences;
-    private Queue<string> emoticons;
+    private Queue<Texture> emoticons;
 
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
-        emoticons = new Queue<string>();
+        emoticons = new Queue<Texture>();
 
     }
 
@@ -34,7 +35,7 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(s);
         }
-        foreach(string e in dialogue.emoticons)
+        foreach(Texture e in dialogue.emoticons)
         {
             emoticons.Enqueue(e);
         }
@@ -53,9 +54,9 @@ public class DialogueManager : MonoBehaviour
         }
 
         string s = sentences.Dequeue();
-        string e = emoticons.Dequeue();
+        Texture e = emoticons.Dequeue();
         dialogueText.text = s;
-        emoticonText.text = e;
+        emoticonImage.texture = e;
     }
     
     void EndDialogue()

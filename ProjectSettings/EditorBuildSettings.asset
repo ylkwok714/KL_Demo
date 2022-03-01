@@ -7,7 +7,7 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 0
     path: 
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/TitleScene.unity
     guid: ddc1f641dccaffc4da3e4b53b4ec3001
@@ -18,12 +18,15 @@ EditorBuildSettings:
     path: Assets/Scenes/ActionSelection.unity
     guid: e4b8b0c1d734fd140a507409784be2aa
   - enabled: 1
-    path: Assets/Scenes/TempVolunteer.unity
-    guid: 92fd38f6a7180d54f835af552d35445b
-  - enabled: 1
     path: Assets/Scenes/DecreaseKarmaTemplate.unity
     guid: 94fad5c876a9fbc4997562d1bd63e37c
   - enabled: 1
     path: Assets/Scenes/IncreaseKarmaTemplate.unity
     guid: f99439373f3049d43850d41c4b02f2ee
+  - enabled: 1
+    path: Assets/Scenes/Volunteer_SoupKitchen.unity
+    guid: ac5b0f88f06d6674b8827dc24b5b569a
+  - enabled: 1
+    path: Assets/Scenes/SideProjects_MeetPartner.unity
+    guid: 9af02eaa1f84cbe44a709d1f55527127
   m_configObjects: {}
