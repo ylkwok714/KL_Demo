@@ -24,6 +24,7 @@ public class PlayerSystem : MonoBehaviour
     public Texture lowHappiness;
 
     public Queue<string> actionsTaken = new Queue<string>();
+    public string actionEffect;
 
     public TextMeshProUGUI dayCounterText;
 
@@ -89,5 +90,15 @@ public class PlayerSystem : MonoBehaviour
     public void ChangeHappiness(int change)
     {
         happiness += change;
+    }
+
+    public int GetKarmaLevel()
+    {
+        return karmaLevel;
+    }
+
+    public int GetHappiness()
+    {
+        return happiness;
     }
 }

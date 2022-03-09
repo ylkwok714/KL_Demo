@@ -62,6 +62,11 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         Debug.Log("End of convo");
+        if(SceneManager.GetActiveScene().name == "EndingTemplate")
+        {
+            Application.Quit();
+            return;
+        }
         SceneManager.LoadScene("ActionSelection");
     }
 }

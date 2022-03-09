@@ -156,21 +156,21 @@ MonoBehaviour:
   scenario:
     emoticons: []
     sentences:
-    - You find yourself in a soup kitchen that serves food to the homeless and impoverished.
-    - A senior volunteer manager asks you to help serve food but there is a huge
-      event going on in your favorite MMORPG. What do you do?
+    - You receive an amazing opportunity to gain a mentorship in your desired field
+      over the break.
+    - However, your friends and you have planned a vacation for a long time.
   increaseKarmaChoice: {fileID: 1451969582}
   decreaseKarmaChoice: {fileID: 683076621}
-  incKarmaActionName: Volunteer - Go Home
-  decKarmaActionName: Volunteer - Serve Food
-  incKarmaActionEffect: You manage to get some rare weapons and armor from the MMO's
-    annual event.
-  decKarmaActionEffect: You feel a sense of servant leadership as you serve food
-    to the homeless and impoverished.
-  incKarmaAmt: 100
-  decKarmaAmt: -100
-  incHappinessAmt: 1
-  decHappinessAmt: -1
+  incKarmaActionName: Internship - Vacation w/ Friends
+  decKarmaActionName: Internship - Take the mentorship
+  incKarmaActionEffect: You go on a lovely road trip with your friends and make some
+    lifelong memories~
+  decKarmaActionEffect: The mentor turns out to be a professor that you absolutely
+    despise. You look longingly at the photos that your friends took over break.
+  incKarmaAmt: 800
+  decKarmaAmt: -800
+  incHappinessAmt: 2
+  decHappinessAmt: -2
 --- !u!4 &599831997
 Transform:
   m_ObjectHideFlags: 0
@@ -200,7 +200,7 @@ GameObject:
   - component: {fileID: 683076621}
   - component: {fileID: 683076625}
   m_Layer: 5
-  m_Name: ServeFoodChoice
+  m_Name: TakeMentorshipChoice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697183893}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
@@ -567,7 +567,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Go Home
+  m_text: Vacation with your friends
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -736,7 +736,7 @@ GameObject:
   - component: {fileID: 1451969582}
   - component: {fileID: 1451969583}
   m_Layer: 5
-  m_Name: GoHomeChoice
+  m_Name: VacationChoice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -749,7 +749,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1451969578}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -760,7 +760,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -64.70001}
+  m_AnchoredPosition: {x: 0, y: -64.69998}
   m_SizeDelta: {x: 880, y: 42}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1451969580
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Serve Food
+  m_text: Take the mentorship
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

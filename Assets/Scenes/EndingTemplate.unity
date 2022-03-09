@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 273308644}
   - component: {fileID: 273308643}
   - component: {fileID: 273308642}
+  - component: {fileID: 273308645}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -274,6 +275,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273308645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273308641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266927bb0653c5d42ad8d436a5785b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &974540518 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7918792870618864352, guid: 7c504b080d9ee7e43be34ad16b8e8275, type: 3}
@@ -346,40 +359,70 @@ MonoBehaviour:
   m_GameObject: {fileID: 1206385066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91bec370f40f1d748a1ffa3d467c4c2c, type: 3}
+  m_Script: {fileID: 11500000, guid: 955ec3af40941f4428ab93d52bdb7fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
+  highKarmaHighHappinessDialogue:
     emoticons:
-    - {fileID: 2800000, guid: c9ddd88a789abb7499f3d75d357a9284, type: 3}
-    - {fileID: 2800000, guid: c9ddd88a789abb7499f3d75d357a9284, type: 3}
-    - {fileID: 2800000, guid: fd533a448a02df540b7699a9debfc269, type: 3}
-    - {fileID: 2800000, guid: c9ddd88a789abb7499f3d75d357a9284, type: 3}
-    - {fileID: 2800000, guid: ab0aaae2ca4e23e47a8defddd45af38b, type: 3}
-    - {fileID: 2800000, guid: 601c90513bc1cd14ca50c133ff28243f, type: 3}
-    - {fileID: 2800000, guid: 4e92b48713df88e42aa0c5768d62febd, type: 3}
-    - {fileID: 2800000, guid: ea01cab4c3a32214b8943f799dcb499b, type: 3}
-    - {fileID: 2800000, guid: cde09dcfa6149244e8f56479c2eec8ef, type: 3}
-    - {fileID: 2800000, guid: ab0aaae2ca4e23e47a8defddd45af38b, type: 3}
-    - {fileID: 2800000, guid: ab0aaae2ca4e23e47a8defddd45af38b, type: 3}
+    - {fileID: 2800000, guid: 011c17cca9eb65142a228da98735dc69, type: 3}
+    - {fileID: 2800000, guid: d9f8dbd5e7048474a9a6e0aecc5f62dc, type: 3}
+    - {fileID: 2800000, guid: a271413da89ba27449e54e25b7dc4b36, type: 3}
+    - {fileID: 2800000, guid: 9c83a1531158a7245af10c84c193cf4b, type: 3}
+    - {fileID: 2800000, guid: 35e4009677dbab845919a7cbeec92c0b, type: 3}
     sentences:
-    - 'Well, well, well. look what we have here...
+    - You have reached the end of your journey.
+    - Your karma is in the red...
+    - You do remember that having GREEN karma is better, right?
+    - Though your karma is not that good, you managed to find true happiness in your
+      time.
+    - You can not reincarnate back into a human but you are able to reincarnate into
+      a simple animal. You will live based on your instinct and loving nature.
+  highKarmaLowHappinessDialogue:
+    emoticons:
+    - {fileID: 2800000, guid: 011c17cca9eb65142a228da98735dc69, type: 3}
+    - {fileID: 2800000, guid: d9f8dbd5e7048474a9a6e0aecc5f62dc, type: 3}
+    - {fileID: 2800000, guid: a271413da89ba27449e54e25b7dc4b36, type: 3}
+    - {fileID: 2800000, guid: 8eb6a5485e8fbff4caccc98188c936e5, type: 3}
+    - {fileID: 2800000, guid: 601c90513bc1cd14ca50c133ff28243f, type: 3}
+    sentences:
+    - You have reached the end of your journey.
+    - Your karma is in the red...
+    - You do remember that having GREEN karma is better, right?
+    - You have somehow managed to lived the most miserable life possible.
+    - 'You had no use in life and could not find happiness.
 
-'
-    - 'This soul has-
-
-'
-    - 'You hear a disemboded voice clear their throat.
-
-'
-    - '...died in their sleep while writing their graduate school application. '
-    - You're in luck kid. You're being punished for the lies you wrote on that app.
-    - Your punishment is to redeem that grad school app you could never finish.
-    - Your primary stat is "KARMA" and the actions you take will affect your KARMA.
-    - When you do appropriate deeds, your KARMA will turn to green (like so).
-    - Conversely, when you do inappropriate actions, your KARMA will turn to red.
-    - The better your KARMA, the better you'll end up!
-    - You can only choose one action per day so choose wisely kiddo.
+      You are condemned
+      to servitude in hell.'
+  lowKarmaHighHappinessDialogue:
+    emoticons:
+    - {fileID: 2800000, guid: 011c17cca9eb65142a228da98735dc69, type: 3}
+    - {fileID: 2800000, guid: a73548546f484fe43a70282e8924acaa, type: 3}
+    - {fileID: 2800000, guid: 2c153c147f4b6364a95d5e1ca2e54045, type: 3}
+    - {fileID: 2800000, guid: 989f26b34d2559f4d97f0bd3ffe7bf32, type: 3}
+    - {fileID: 2800000, guid: ec1d42aabea280f42a3d725c29e61049, type: 3}
+    sentences:
+    - You have reached the end of your journey.
+    - Pretty impressive. You didn't do as bad as I'd thought.
+    - You have managed to find the perfect balance between maintaining your grad
+      school app and your overall happiness!
+    - Because you have worked your hardest to achieve the best life you can manage,
+      you are hereby allowed to reincarnate into a well-to-do family.
+    - Go ahead, you deserve it!
+  lowKarmaLowHappinessDialogue:
+    emoticons:
+    - {fileID: 2800000, guid: 011c17cca9eb65142a228da98735dc69, type: 3}
+    - {fileID: 2800000, guid: a73548546f484fe43a70282e8924acaa, type: 3}
+    - {fileID: 2800000, guid: ca4d520e8b90c764e8ea68dc87ba7013, type: 3}
+    - {fileID: 2800000, guid: 3dd3aab45c456444787453f5aca27a1b, type: 3}
+    - {fileID: 2800000, guid: a73548546f484fe43a70282e8924acaa, type: 3}
+    sentences:
+    - You have reached the end of your journey.
+    - Pretty impressive. You didn't do as bad as I'd thought.
+    - In your effort to lower your karma, you have sacrificed your own happiness
+      and the people who love you.
+    - 'You are unable to reincarnate.... '
+    - ...and you will continue as a hungry ghost,  longing for the things that you
+      had previously ignored.
 --- !u!1 &1280768232
 GameObject:
   m_ObjectHideFlags: 0

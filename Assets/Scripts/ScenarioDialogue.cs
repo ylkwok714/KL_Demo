@@ -16,6 +16,9 @@ public class ScenarioDialogue : MonoBehaviour
     public string incKarmaActionName;
     public string decKarmaActionName;
 
+    public string incKarmaActionEffect;
+    public string decKarmaActionEffect;
+
     public int incKarmaAmt;
     public int decKarmaAmt;
     public int incHappinessAmt;
@@ -43,6 +46,7 @@ public class ScenarioDialogue : MonoBehaviour
         PlayerSystem.instance.ChangeKarma(incKarmaAmt);
         PlayerSystem.instance.ChangeHappiness(incHappinessAmt);
         PlayerSystem.instance.actionsTaken.Enqueue(incKarmaActionName);
+        PlayerSystem.instance.actionEffect = incKarmaActionEffect;
         Debug.Log("Karma: " + PlayerSystem.karmaLevel);
         Debug.Log("Happiness: " + PlayerSystem.happiness);
     }
@@ -51,6 +55,7 @@ public class ScenarioDialogue : MonoBehaviour
         PlayerSystem.instance.ChangeKarma(decKarmaAmt);
         PlayerSystem.instance.ChangeHappiness(decHappinessAmt);
         PlayerSystem.instance.actionsTaken.Enqueue(decKarmaActionName);
+        PlayerSystem.instance.actionEffect = decKarmaActionEffect;
         Debug.Log("Karma: " + PlayerSystem.karmaLevel);
         Debug.Log("Happiness: " + PlayerSystem.happiness);
 
