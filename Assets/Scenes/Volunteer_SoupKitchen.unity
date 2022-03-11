@@ -161,8 +161,8 @@ MonoBehaviour:
       event going on in your favorite MMORPG. What do you do?
   increaseKarmaChoice: {fileID: 1451969582}
   decreaseKarmaChoice: {fileID: 683076621}
-  incKarmaActionName: Volunteer - Go Home
-  decKarmaActionName: Volunteer - Serve Food
+  incKarmaActionName: Volunteer - Soup Kitchen - Go Home
+  decKarmaActionName: Volunteer - Soup Kitchen - Serve Food
   incKarmaActionEffect: You manage to get some rare weapons and armor from the MMO's
     annual event.
   decKarmaActionEffect: You feel a sense of servant leadership as you serve food

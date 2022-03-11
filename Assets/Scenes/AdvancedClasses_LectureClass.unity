@@ -161,8 +161,8 @@ MonoBehaviour:
     - However, your friends and you have planned a vacation for a long time.
   increaseKarmaChoice: {fileID: 1451969582}
   decreaseKarmaChoice: {fileID: 683076621}
-  incKarmaActionName: Advanced Class - Go to Party
-  decKarmaActionName: Advanced Class - Go to Class
+  incKarmaActionName: Advanced Class - Night Lecture - Go to Party
+  decKarmaActionName: Advanced Class - Night Lecture - Go to Class
   incKarmaActionEffect: You meet your friends and get in touch with people you haven't
     seen in a long time.
   decKarmaActionEffect: The lecture is boring but your professor gives the class

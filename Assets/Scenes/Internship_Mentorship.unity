@@ -161,8 +161,8 @@ MonoBehaviour:
     - However, your friends and you have planned a vacation for a long time.
   increaseKarmaChoice: {fileID: 1451969582}
   decreaseKarmaChoice: {fileID: 683076621}
-  incKarmaActionName: Internship - Vacation w/ Friends
-  decKarmaActionName: Internship - Take the mentorship
+  incKarmaActionName: Internship - Mentorship - Vacation w/ Friends
+  decKarmaActionName: Internship - Mentorship - Take the mentorship
   incKarmaActionEffect: You go on a lovely road trip with your friends and make some
     lifelong memories~
   decKarmaActionEffect: The mentor turns out to be a professor that you absolutely

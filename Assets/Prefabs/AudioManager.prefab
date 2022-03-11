@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6972993302065029190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6972993302065029188}
+  - component: {fileID: 6972993302065029189}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6972993302065029188
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972993302065029190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 257.87946, y: 194.50221, z: -1.0048027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6972993302065029189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6972993302065029190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c51c9fd2094116d419e15cf2e1c6d73b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: OpeningTitle
+    clip: {fileID: 8300000, guid: 2e9dd5562bf3f8e4992e3036578a461a, type: 3}
+    volume: 0.35
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: DVTheme
+    clip: {fileID: 8300000, guid: 4ba6b415a01204b4189b3526dff4336e, type: 3}
+    volume: 0.35
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: GoodKarma1
+    clip: {fileID: 8300000, guid: f30e697d14f62c4428094df51b7c96a2, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GoodKarma2
+    clip: {fileID: 8300000, guid: 21449936a8bcbc64e901d30f569edf9d, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GoodKarma3
+    clip: {fileID: 8300000, guid: 3484f608280a34040ac9a392891a49da, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: GoodKarma4
+    clip: {fileID: 8300000, guid: a27cdc5cd9c397e4d94eb58866edebf1, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: BadKarma1
+    clip: {fileID: 8300000, guid: d6aa972b125c4194cb7303539ce73848, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: BadKarma2
+    clip: {fileID: 8300000, guid: 129255d356cfd2f40bb95f1048725811, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: BadKarma3
+    clip: {fileID: 8300000, guid: a195fe48d608a1c429aa6ccc8e975ce3, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: BadKarma4
+    clip: {fileID: 8300000, guid: bb010a8f0d6d32a478c0031cdbb4d0bf, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: ActionGong
+    clip: {fileID: 8300000, guid: f27215cf0745a5747bc8e64bb96141b1, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1

@@ -161,8 +161,8 @@ MonoBehaviour:
       not have any time to restock other than tonight.
   increaseKarmaChoice: {fileID: 683076621}
   decreaseKarmaChoice: {fileID: 1451969582}
-  incKarmaActionName: Side Projects - Go Grocery Shopping
-  decKarmaActionName: Side Projects - Go to Group Meeting
+  incKarmaActionName: Side Projects - Group Meeting - Go Grocery Shopping
+  decKarmaActionName: Side Projects - Group Meeting - Go to Group Meeting
   incKarmaActionEffect: You arrive at the meeting early. It takes another thirty
     minutes before the meeting is in full attendance and you are stuck with the fact
     that you could have gone to do a quick grocery run in the time it took for the

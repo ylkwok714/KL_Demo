@@ -38,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EndingTemplate.unity
     guid: f405de1b9ee30be4e984109829a81450
+  - enabled: 1
+    path: Assets/Scenes/EndingStats.unity
+    guid: 6f1db8188ef54b24fb6e27b2564e7023
   m_configObjects: {}
