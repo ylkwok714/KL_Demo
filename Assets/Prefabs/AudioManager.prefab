@@ -111,3 +111,51 @@ MonoBehaviour:
     pitch: 1
     source: {fileID: 0}
     loop: 1
+  - name: SoupKitchen
+    clip: {fileID: 8300000, guid: 22ad427ee84a247479d2a3bdc4db166d, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: LectureClass
+    clip: {fileID: 8300000, guid: 7d23fc6d94f67d04aa224eac3f2c17b7, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: Mentorship
+    clip: {fileID: 8300000, guid: 9a2c9c8a57121f6438041a357900725d, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: MeetPartner
+    clip: {fileID: 8300000, guid: 065b641ad5e7d0046b0a7320283ae03e, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+  - name: End_lKlH
+    clip: {fileID: 8300000, guid: 80a44dc0da2c51a408931fe9a7f96f59, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: End_hKlH
+    clip: {fileID: 8300000, guid: d8451e66db2e0194f8f7e0aac8e54a95, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: End_hKhH
+    clip: {fileID: 8300000, guid: 094b4e5ebd0799a4499897a2a0f5ad84, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0
+  - name: End_lKhH
+    clip: {fileID: 8300000, guid: 65d01a59aad72e04e9f0dfc207241038, type: 3}
+    volume: 0.487
+    pitch: 1
+    source: {fileID: 0}
+    loop: 0

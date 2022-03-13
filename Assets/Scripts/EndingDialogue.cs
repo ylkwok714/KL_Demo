@@ -23,24 +23,29 @@ public class EndingDialogue : MonoBehaviour
 
     public void TriggerEndingDialogue()
     {
+        //high karma, high happiness - 
         if(endingKarmaLevel >= 0 && endingHappiness >= 0)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(highKarmaHighHappinessDialogue);
+            FindObjectOfType<AudioManager>().PlaySound("End_hKhH");
 
         }
         if (endingKarmaLevel >= 0 && endingHappiness < 0)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(highKarmaLowHappinessDialogue);
+            FindObjectOfType<AudioManager>().PlaySound("End_hKlH");
 
         }
         if (endingKarmaLevel < 0 && endingHappiness >= 0)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(lowKarmaHighHappinessDialogue);
+            FindObjectOfType<AudioManager>().PlaySound("End_lKhH");
 
         }
         if (endingKarmaLevel < 0 && endingHappiness < 0)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(lowKarmaLowHappinessDialogue);
+            FindObjectOfType<AudioManager>().PlaySound("End_lKlH");
 
         }
 

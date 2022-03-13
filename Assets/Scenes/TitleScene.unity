@@ -901,7 +901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonObj: {fileID: 1297105336}
   hoverAudio: {fileID: 8300000, guid: 1825ea46029a82444ae76e6b8fb051a0, type: 3}
-  clickAudio: {fileID: 8300000, guid: 7d2b5be6af776544eb270fb3b93bcb33, type: 3}
+  clickAudio: {fileID: 8300000, guid: 19fd3d402b1dbae469a02b7888b19c6e, type: 3}
 --- !u!82 &1297105336
 AudioSource:
   m_ObjectHideFlags: 0

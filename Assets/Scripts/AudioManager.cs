@@ -77,7 +77,7 @@ public class AudioManager : MonoBehaviour
         }
 
         //disembodied voice thematic music
-        else if (SceneManager.GetActiveScene().name == "TemplateScene")
+        else if (SceneManager.GetActiveScene().name == "TemplateScene" || SceneManager.GetActiveScene().name == "MidwayReveal")
         {
             //FindObjectOfType<AudioManager>().StopSound("OpeningTitle");
             FindObjectOfType<AudioManager>().PlaySound("DVTheme");
@@ -91,7 +91,7 @@ public class AudioManager : MonoBehaviour
         }
 
         //good karma randomized audio effect
-        else if (SceneManager.GetActiveScene().name == "DecreaseKarmaTemplate")
+         if (SceneManager.GetActiveScene().name == "DecreaseKarmaTemplate")
         {
             int num = (int)Random.Range(1.0f,5.0f);
             string soundName = "GoodKarma" + num;
@@ -106,6 +106,33 @@ public class AudioManager : MonoBehaviour
             string soundName = "BadKarma" + num;
             FindObjectOfType<AudioManager>().PlaySound(soundName);
 
+        }
+
+        /*
+         * The 4 scenarios
+         */
+        //soup kitchen background sfx
+         if(SceneManager.GetActiveScene().name == "Volunteer_SoupKitchen")
+        {
+            FindObjectOfType<AudioManager>().PlaySound("SoupKitchen");
+        }
+
+        //lecture background sfx
+        else if (SceneManager.GetActiveScene().name == "AdvancedClasses_LectureClass")
+        {
+            FindObjectOfType<AudioManager>().PlaySound("LectureClass");
+        }
+
+        //mentorship background sfx
+        else if (SceneManager.GetActiveScene().name == "Internship_Mentorship")
+        {
+            FindObjectOfType<AudioManager>().PlaySound("Mentorship");
+        }
+
+        //meet partner background sfx
+        else if (SceneManager.GetActiveScene().name == "SideProjects_MeetPartner")
+        {
+            FindObjectOfType<AudioManager>().PlaySound("MeetPartner");
         }
 
         //(4) ending music - 

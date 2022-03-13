@@ -25,7 +25,14 @@ public class SceneTransition : MonoBehaviour
                 return;
             }
         }
-         
+
+        StartCoroutine(DelaySceneTransition());
+
+    }
+
+    public IEnumerator DelaySceneTransition()
+    {
+        yield return new WaitForSeconds(1);
         SceneManager.LoadScene(sceneName);
 
     }
