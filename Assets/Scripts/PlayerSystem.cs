@@ -24,6 +24,7 @@ public class PlayerSystem : MonoBehaviour
     public Texture lowHappiness;
 
     public Queue<string> actionsTaken = new Queue<string>();
+    public List<string> buttonsToTurnOff;
     public string actionEffect;
 
     public TextMeshProUGUI dayCounterText;

@@ -9,10 +9,16 @@ public class GaugeManager : MonoBehaviour
     public RawImage karmaPlaceholder;
     public RawImage happinessPlaceholder;
 
+    public Button volunteerButton;
+    public Button sideprojButton;
+    public Button internButton;
+    public Button advclassButton;
+
     // Start is called before the first frame update
     void Awake()
     {
         DisplayGauges();
+        ToggleButtons();
     }
 
     public void DisplayGauges()
@@ -30,6 +36,31 @@ public class GaugeManager : MonoBehaviour
         else
         {
             happinessPlaceholder.gameObject.SetActive(false);
+        }
+    }
+
+    public void ToggleButtons()
+    {
+        List<string> buttons = PlayerSystem.instance.buttonsToTurnOff;
+        for(int i = 0; i < buttons.Count; i++)
+        {
+            if(buttons[i] == "Volunteer")
+            {
+                volunteerButton.gameObject.SetActive(false);
+            }
+            if (buttons[i] == "SideProjects")
+            {
+                sideprojButton.gameObject.SetActive(false);
+            }
+            if (buttons[i] == "Internship")
+            {
+                internButton.gameObject.SetActive(false);
+            }
+            if (buttons[i] == "AdvancedClasses")
+            {
+                advclassButton.gameObject.SetActive(false);
+            }
+
         }
     }
 }

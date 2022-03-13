@@ -140,22 +140,22 @@ MonoBehaviour:
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
-    loop: 0
+    loop: 1
   - name: End_hKlH
     clip: {fileID: 8300000, guid: d8451e66db2e0194f8f7e0aac8e54a95, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
-    loop: 0
+    loop: 1
   - name: End_hKhH
     clip: {fileID: 8300000, guid: 094b4e5ebd0799a4499897a2a0f5ad84, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
-    loop: 0
+    loop: 1
   - name: End_lKhH
     clip: {fileID: 8300000, guid: 65d01a59aad72e04e9f0dfc207241038, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
-    loop: 0
+    loop: 1

@@ -170,6 +170,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   karmaPlaceholder: {fileID: 1779320431}
   happinessPlaceholder: {fileID: 1138190964}
+  volunteerButton: {fileID: 1862271416}
+  sideprojButton: {fileID: 609882901}
+  internButton: {fileID: 1565884279}
+  advclassButton: {fileID: 833124114}
 --- !u!114 &165394488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,6 +194,7 @@ MonoBehaviour:
   highHappiness: {fileID: 2800000, guid: ec1d42aabea280f42a3d725c29e61049, type: 3}
   midHappiness: {fileID: 2800000, guid: 904a3d7b653958344a660e69f06401c1, type: 3}
   lowHappiness: {fileID: 2800000, guid: ca4d520e8b90c764e8ea68dc87ba7013, type: 3}
+  buttonsToTurnOff: []
   actionEffect: 
   dayCounterText: {fileID: 404591025}
 --- !u!1 &202633894
@@ -741,6 +746,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 609882904}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: LogChosenButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: SideProjects
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &609882902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1046,6 +1063,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 833124117}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: LogChosenButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: AdvancedClasses
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &833124115
@@ -1756,6 +1785,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1565884282}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: LogChosenButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Internship
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1565884280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2448,6 +2489,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1862271419}
+        m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
+        m_MethodName: LogChosenButton
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Volunteer
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1862271417

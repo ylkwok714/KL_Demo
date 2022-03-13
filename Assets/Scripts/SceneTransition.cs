@@ -36,4 +36,9 @@ public class SceneTransition : MonoBehaviour
         SceneManager.LoadScene(sceneName);
 
     }
+
+    public void LogChosenButton(string action)
+    {
+        PlayerSystem.instance.buttonsToTurnOff.Add(action);
+    }
 }
