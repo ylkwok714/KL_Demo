@@ -163,13 +163,13 @@ MonoBehaviour:
   decreaseKarmaChoice: {fileID: 1451969582}
   incKarmaActionName: Side Projects - Group Meeting - Go Grocery Shopping
   decKarmaActionName: Side Projects - Group Meeting - Go to Group Meeting
-  incKarmaActionEffect: You arrive at the meeting early. It takes another thirty
+  incKarmaActionEffect: You opt to make a grocery run. You try to hurry in time for
+    the meeting but, by the time you are done paying at the cashier it is thirty
+    minutes past the meeting's start time.
+  decKarmaActionEffect: You arrive at the meeting early. It takes another thirty
     minutes before the meeting is in full attendance and you are stuck with the fact
     that you could have gone to do a quick grocery run in the time it took for the
     other members to arrive.
-  decKarmaActionEffect: You opt to make a grocery run. You try to hurry in time for
-    the meeting but, by the time you are done paying at the cashier it is thirty
-    minutes past the meeting's start time.
   incKarmaAmt: 500
   decKarmaAmt: -500
   incHappinessAmt: 1

@@ -37,6 +37,11 @@ public class SceneTransition : MonoBehaviour
 
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     public void LogChosenButton(string action)
     {
         PlayerSystem.instance.buttonsToTurnOff.Add(action);

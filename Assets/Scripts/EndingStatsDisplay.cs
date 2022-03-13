@@ -19,9 +19,10 @@ public class EndingStatsDisplay : MonoBehaviour
         //int count = PlayerSystem.instance.actionsTaken.Count;
         for (int i = 0; i < statBoxes.Length; i++)
         {
-            int daynumber = i + 1;
-            statBoxes[i].text = "Day " + daynumber + " " + PlayerSystem.instance.actionsTaken.Dequeue();
+            //int daynumber = i + 1;
+            statBoxes[i].text = PlayerSystem.instance.actionsTaken.Dequeue();
             //Debug.Log(PlayerSystem.instance.actionsTaken.Dequeue());
+            //statBoxes[i].col
         }
 
     }

@@ -156,9 +156,9 @@ MonoBehaviour:
   scenario:
     emoticons: []
     sentences:
-    - You receive an amazing opportunity to gain a mentorship in your desired field
-      over the break.
-    - However, your friends and you have planned a vacation for a long time.
+    - You are about to go to your Friday night class when you receive a message from
+      your friends.
+    - "They're inviting you to a party and you haven't gone to one in a while.\r"
   increaseKarmaChoice: {fileID: 1451969582}
   decreaseKarmaChoice: {fileID: 683076621}
   incKarmaActionName: Advanced Class - Night Lecture - Go to Party
