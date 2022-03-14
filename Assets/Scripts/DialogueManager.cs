@@ -8,6 +8,8 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 
 {
+    public Animator transition;
+
     //public TextMeshPro nameText;
     public TextMeshProUGUI dialogueText;
     public RawImage emoticonImage;
@@ -64,9 +66,24 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of convo");
         if(SceneManager.GetActiveScene().name == "EndingTemplate")
         {
-            SceneManager.LoadScene("EndingStats");
+            StartCoroutine(TransitionScene("EndingStats"));
+            //SceneManager.LoadScene("EndingStats");
             return;
         }
-        SceneManager.LoadScene("ActionSelection");
+        StartCoroutine(TransitionScene("ActionSelection"));
+        //SceneManager.LoadScene("ActionSelection");
+    }
+
+    IEnumerator TransitionScene(string name)
+    {
+        //Play animation
+        transition.SetTrigger("Start");
+
+        //wait for animation to finish
+        yield return new WaitForSeconds(1f);
+
+        //load scene
+        SceneManager.LoadScene(name);
+
     }
 }

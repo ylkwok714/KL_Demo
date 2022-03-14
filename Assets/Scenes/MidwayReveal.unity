@@ -331,6 +331,113 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &381252671
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1280768236}
+    m_Modifications:
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378125215427374366, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+      propertyPath: m_Name
+      value: Crossfade
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+--- !u!224 &381252672 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1378125215427374354, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+  m_PrefabInstance: {fileID: 381252671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &381252673 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1378125215427374353, guid: f9d980505462d5541a8d93b4a0811c62, type: 3}
+  m_PrefabInstance: {fileID: 381252671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &974540518 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7918792870618864352, guid: 7c504b080d9ee7e43be34ad16b8e8275, type: 3}
@@ -358,7 +465,6 @@ GameObject:
   - component: {fileID: 1206385068}
   - component: {fileID: 1206385067}
   - component: {fileID: 1206385069}
-  - component: {fileID: 1206385070}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -378,6 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7faee7f8f33dc40858d3e7caa7a073, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 381252673}
   dialogueText: {fileID: 1120191936}
   emoticonImage: {fileID: 1506891069}
 --- !u!4 &1206385068
@@ -422,28 +529,6 @@ MonoBehaviour:
 '
     - Sometimes you have to consider a little something called 'happiness'.
     - Do with that what you will.
---- !u!114 &1206385070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1206385066}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b2342cb97b0cca4ebdd91d8e05fc9bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  karmaImage: {fileID: 0}
-  happinessImage: {fileID: 0}
-  goodKarma: {fileID: 2800000, guid: 56dac3d28d0a75b4c8f6d39ee55c9daf, type: 3}
-  midKarma: {fileID: 2800000, guid: d38d8a961a235da4e890b045a57e6501, type: 3}
-  badKarma: {fileID: 2800000, guid: 9b1d06119c9fb614fb2aaee70b7a29aa, type: 3}
-  highHappiness: {fileID: 2800000, guid: ec1d42aabea280f42a3d725c29e61049, type: 3}
-  midHappiness: {fileID: 2800000, guid: 904a3d7b653958344a660e69f06401c1, type: 3}
-  lowHappiness: {fileID: 2800000, guid: ca4d520e8b90c764e8ea68dc87ba7013, type: 3}
-  actionEffect: 
-  dayCounterText: {fileID: 0}
 --- !u!1 &1280768232
 GameObject:
   m_ObjectHideFlags: 0
@@ -537,6 +622,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1726703956}
+  - {fileID: 381252672}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
