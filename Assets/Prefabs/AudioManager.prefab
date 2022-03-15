@@ -118,19 +118,19 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 1
   - name: LectureClass
-    clip: {fileID: 8300000, guid: 7d23fc6d94f67d04aa224eac3f2c17b7, type: 3}
+    clip: {fileID: 8300000, guid: 20d449f8684a75a44ba85f7ae87666d2, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: Mentorship
-    clip: {fileID: 8300000, guid: 9a2c9c8a57121f6438041a357900725d, type: 3}
+    clip: {fileID: 8300000, guid: bd14a6869ccf07644b75c01ab3b0e91f, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
     loop: 1
   - name: MeetPartner
-    clip: {fileID: 8300000, guid: 065b641ad5e7d0046b0a7320283ae03e, type: 3}
+    clip: {fileID: 8300000, guid: b303456d2e057e04d8e85eb6724b3c4c, type: 3}
     volume: 0.487
     pitch: 1
     source: {fileID: 0}
